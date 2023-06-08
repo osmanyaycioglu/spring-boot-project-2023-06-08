@@ -8,7 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import java.lang.reflect.Method;
 
-@SpringBootApplication(scanBasePackages = {"com.spring.training.springbootproject", "com.spring.training.execute"})
+//@SpringBootApplication(scanBasePackages = {"com.spring.training.springbootproject", "com.spring.training.execute"})
+@SpringBootApplication
 public class SpringBootProjectApplication {
 
     @Autowired
