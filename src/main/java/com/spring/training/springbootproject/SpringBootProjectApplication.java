@@ -1,5 +1,6 @@
 package com.spring.training.springbootproject;
 
+import com.spring.training.springbootproject.interfaces.AbstractHello;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,7 +23,6 @@ public class SpringBootProjectApplication {
 
 //		SpringBootProjectApplication a = new SpringBootProjectApplication();
 //		a.hello.helloWorld();
-
 
     }
 
