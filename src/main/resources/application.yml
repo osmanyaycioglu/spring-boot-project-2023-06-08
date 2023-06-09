@@ -1,0 +1,62 @@
+app:
+  greeting:
+    goodbye:
+      prefix: bye
+    hello:
+      prefix: Hi
+  language: dyn
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+my:
+  app:
+    amount: 10.4
+    app-name: Hello
+    app-test-version: 1.0.1
+    app-version: 1.0.1
+    appTestVersion: 1.0.1
+    app_test_version: 1.0.1
+    default-department:
+      description: deneme
+      employeeCount: 10
+      location: http://localhost
+      name: default
+    department-map:
+      adana:
+        description: adana fi
+        employee-count: 19
+        location: adana
+        name: mapdep1
+      antep:
+        description: antep fi
+        employee-count: 30
+        location: antep
+        name: mapdep1
+    departments:
+    - description: ist it
+      employee-count: 100
+      location: istanbul
+      name: dep1
+    - description: ank it
+      employee-count: 105
+      location: ankara
+      name: dep2
+    new-property: New property
+    output-host: 127.0.0.1:8080
+    port: 8080
+    test-list:
+    - test1
+    - test2
+    - test3
+    - test4
+server:
+  shutdown: graceful
+  port: ${my.app.port:8080}
+  http2:
+    enabled: false
+spring:
+  profiles:
+    default: develop
+
