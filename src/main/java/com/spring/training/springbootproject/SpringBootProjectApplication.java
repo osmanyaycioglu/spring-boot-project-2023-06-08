@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.lang.reflect.Method;
@@ -12,6 +13,7 @@ import java.lang.reflect.Method;
 //@SpringBootApplication(scanBasePackages = {"com.spring.training.springbootproject", "com.spring.training.execute"})
 @SpringBootApplication
 @EnableConfigurationProperties
+@ServletComponentScan
 public class SpringBootProjectApplication {
 
     @Autowired
