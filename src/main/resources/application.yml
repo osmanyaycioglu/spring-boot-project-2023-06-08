@@ -60,7 +60,7 @@ server:
     include-binding-errors: always
     include-exception: true
     include-message: always
-    include-stacktrace: always
+    include-stacktrace: never
 spring:
   profiles:
     default: develop
