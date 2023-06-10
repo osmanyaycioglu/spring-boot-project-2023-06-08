@@ -1,12 +1,11 @@
 package com.spring.training.springbootproject.rest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.http.HttpRequest;
+import com.spring.training.springbootproject.rest.models.MyResponse;
+import com.spring.training.springbootproject.rest.models.Person;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.server.ServerHttpRequest;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.ServletInputStream;

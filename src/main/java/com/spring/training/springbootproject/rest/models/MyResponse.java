@@ -1,4 +1,4 @@
-package com.spring.training.springbootproject.rest;
+package com.spring.training.springbootproject.rest.models;
 
 import lombok.*;
 
